@@ -1,0 +1,10 @@
+<Context>
+
+	<Resource name="jdbc/project"
+			auth="Container" type="javax.sql.DataSource"
+				maxActive="25" maxIdle="5" maxWait="10000"
+				username="eboreAwano" password="Chessmaster7"
+				driverClassName="com.mysql.jdbc.Driver"
+				url="jdbc:mysql://127.0.0.1:3306/project?useSSL=false"/>
+				
+</Context>
